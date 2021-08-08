@@ -1,0 +1,43 @@
+#background{
+    background-color: rgb(60, 187, 128);
+    background-image: url('aot3.png') ;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#description{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+#form{
+    border-radius: 5px;
+    background-color: rgba(100, 100, 96, 0.74);
+    width: 650px;
+    margin: auto;
+    padding:20px 30px 20px 30px;
+    margin-bottom: 20px;
+}
+#textarea{
+resize: none;
+}
+label{
+    font-family: arial;
+    
+    color: white;
+}
+#sub{
+    background-color: rgb(72, 184, 109);
+    color: white;
+    font-size: large;
+    height: 50px;
+    outline: none;
+}
+button:active {
+    border-style: outset;
+  }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack on titan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    
+</head>
+<body id="background">
+    <h1 id="title">Survey corp application</h1>
+    <p id="description">Thank you for taking your time to help kill a titan. </p><br><br>
+    <form action="" id="form">
+        <div id="form-cmt">
+            <div class="fname">
+                <label for="fname">First name</label>
+                <input type="text" name="name"   id="fname" placeholder="Enter your name" autofocus autocomplete="off" required class="form-control"> <br>
+            </div>
+            <div class="lname">
+                <label for="lname">Last name</label>
+                <input type="text" name="name" id="lname" placeholder="Enter your name" autofocus autocomplete="off" required class="form-control">   <br>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age" autocomplete="off" required class="form-control" class="form-control" min="10" max="35"><br>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required autocomplete="off" class="form-control"><br>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter your phone number" required class="form-control"  maxlength="10"><br>
+            </div>
+        </div>
+
+        <label>Select your role</label>
+        <div>
+        <div>
+            <input type="radio" name="role" id="scouting legion" checked>
+            <label for="scouting legion" >Scouting Legion</label>
+        </div>
+        <div>
+            <input type="radio" name="role" id="military police">
+            <label for="military police">Military Police</label></div>
+        
+        <div>
+            <input type="radio" name="role" id="stationary guard">
+            <label for="stationary guard">Stationary Guard</label></div><br>
+        </div>   
+        <div>
+            <label >Select your weapon</label>
+        <div>
+            <input type="checkbox" name="weapon" id="firearm" checked>
+            <label for="firearm">Fire Arm</label>
+        </div> 
+        <div>
+            <input type="checkbox" name="weapon" id="odmgear">
+            <label for="odmgear">ODM Gear</label>
+        </div> 
+        <div>
+            <input type="checkbox" name="weapon" id="antipersonal">
+            <label for="antipersonal">Anti Personal </label>
+        </div> 
+        <div>
+            <input type="checkbox" name="weapon" id="thunderspear">
+            <label for="thunderspear">Thunder spear</label>
+        </div> <br>
+            <label for="commend">Would you like to recommend to a friend?</label>
+                <select name="commend" id="commend" class="form-control" >          
+                    <option value="definitely">Definitely</option>
+                    <option value="never">Never</option>
+                    <option value="maybe">Maybe</option>
+                </select><br>
+                <label for="textarea">Any comments or suggestions?</label>
+            <textarea  id="textarea" cols="65" rows="5" class="form-control"></textarea><br>
+        <button type="submit" id="sub" class="btn btn-block ">Submit</button>
+        </div> 
+    </form>
+</body>
+</html>
