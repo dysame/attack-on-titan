@@ -41,3 +41,6 @@ label{
 button:active {
     border-style: outset;
   }
+@media  screen and (max-width: 600px) {
+    #form {width: 100%; background-size: cover;}
+  }
